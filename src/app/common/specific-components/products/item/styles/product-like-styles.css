@@ -1,0 +1,9 @@
+.product-like-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.product-like-common-wrapper {
+    display: flex;
+    flex-direction: column;
+}

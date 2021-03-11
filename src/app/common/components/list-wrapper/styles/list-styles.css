@@ -1,0 +1,92 @@
+
+.center-notification-pb-txt { /***/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    background: #FFFFFF;
+    height: 100%;
+}
+
+.scrollbar-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.scrollbar {
+    
+ /*   border: 1px solid black;*/
+ 
+    background-color: #FFFFFF;
+
+   /* justify-content: space-between;*/
+
+    height: 100%;
+    width: 100%;
+    background: #FFFFFF;
+    overflow-y: scroll;
+    overflow-x: hidden;
+/* Ключевые значения */
+scroll-behavior: auto;
+  /*  -webkit-overflow-scrolling: auto;*/
+}
+
+
+.inner-list {  /***/
+
+  /*  border: 1px solid green;*/
+    margin: 0 auto;
+    padding: 0;
+    background: #FFFFFF;
+    background-color: #FFFFFF;
+
+    width: 100%;
+}
+
+
+.inner-list-grid {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-gap: 1rem;
+    background: #FFFFFF;
+    background-color: #FFFFFF;
+    
+}
+
+.force-overflow {  /***/
+    /*	min-height: 100px;*/
+
+    background: #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+
+#style {
+    background: #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+#style::-webkit-scrollbar-track {  /***/
+   /* -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);**/
+    border-radius: 10px;
+    background: #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+#style::-webkit-scrollbar {  /***/
+    width: 5px;
+  /*  background-color: #F5F5F5;*/
+  background: #FFFFFF;
+  background-color: #FFFFFF;
+}
+
+#style::-webkit-scrollbar-thumb {  /***/
+    border-radius: 10px;
+ /*   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);*/
+ /*   background-color: #D62929;*/
+ background: #FFFFFF;
+ background-color: #FFFFFF;
+}
+

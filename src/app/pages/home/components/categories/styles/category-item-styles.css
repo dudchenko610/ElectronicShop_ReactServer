@@ -1,0 +1,11 @@
+
+.category-item {
+    display: flex; 
+    justify-content: space-between;
+}
+
+
+.category-item .actions {
+     display: flex;
+        
+}

@@ -1,0 +1,13 @@
+.product-comment-tab {
+  /*  height: 100%;*/
+    border : 1px  solid blue;
+}
+
+.pb-comments-container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  /*border: 1px solid red;*/
+}

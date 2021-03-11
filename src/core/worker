@@ -1,0 +1,18 @@
+self.addEventListener("message", e => {
+
+      function sleep(ms) {
+        ms += new Date().getTime();
+        while (new Date() < ms) { }
+      }
+
+      if (!e) return;
+
+
+        while(true) {
+            sleep(e.data.delay);
+       //   sleep(10);
+            self.postMessage(null);
+        }
+        
+      
+    });

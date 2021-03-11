@@ -1,0 +1,111 @@
+
+/* Header */
+
+.header {
+    width : 100%;
+  /*  padding-top: 30px;*/
+    height: 50px;
+
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+    box-shadow: 0px 0px 2px #6262622c;
+}
+
+.header-container {
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width : 100%;
+    max-width : 1200px;
+    margin : 0 auto;
+    
+}
+
+.header-inner {
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-size : 20.11;
+    font-weight: 700;
+    color: #444444;
+
+    width : 10%;
+}
+
+/* Nav */
+.nav-common {
+    font-size: 15px;
+    text-transform: uppercase;
+
+    width : 60%;
+}
+
+.nav-link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 30px;
+    position: relative;
+
+    color: #838585;
+    text-decoration: none;
+
+    transition: color .1s linear;
+
+    cursor: pointer;
+}
+
+.nav-link:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+
+    background-color: #63dd63a6;
+    opacity: 0;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+
+    transition: opacity .1s linear;
+}
+
+.nav-link:hover {
+    color: #63dd63a6;
+}
+
+.nav-link:hover:after,
+.nav-link.active:after {
+    opacity: 1;
+}
+
+.nav-auth-basket {
+    font-size: 17px;
+    text-transform: uppercase;
+
+    width : 30%;
+}
+
+.nav-link2 {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    position: relative;
+
+    color: #e2b8c3;
+    text-decoration: none;
+
+    cursor: pointer;
+}

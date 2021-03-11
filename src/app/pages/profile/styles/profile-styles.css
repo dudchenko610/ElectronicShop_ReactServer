@@ -1,0 +1,27 @@
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profile-data-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-settings-container {
+    display: flex;
+    flex-direction: column;
+  /*  border: 1px solid black;*/
+}
+
+.user-data {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-avatar {
+    width: 90px;
+    height: 90px;
+}

@@ -1,0 +1,13 @@
+
+.characteristics-container {
+    height: 40%;
+
+    display:flex;
+    flex-direction: column;
+}
+
+.add-characteristic-btn-container {
+    display: flex;
+    justify-content: space-between;
+    
+}

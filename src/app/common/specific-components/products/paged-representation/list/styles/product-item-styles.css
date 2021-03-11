@@ -1,0 +1,25 @@
+.product-item-list {
+    border : 1px  solid red;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.product-item-image-wrapper {
+    width: 100px;
+    height: 180px;
+
+    border : 1px  solid green;
+
+}
+
+.product-item-data-wrapper {
+    border : 1px  solid darkorchid;
+
+    display: flex;
+    flex-direction: column; 
+
+    height: 100%;
+    width: 80%;
+}
+

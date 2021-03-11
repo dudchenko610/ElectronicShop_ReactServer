@@ -1,0 +1,31 @@
+.contact-header-item {
+  /*  border: 1px solid black;*/
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    border: 1px solid blue;
+}
+
+.contact-header-avatar-part {
+    width: 50px;
+    height: 50px;
+}
+
+.contact-header-info-part {
+   /* display: flex;
+    flex-direction: column;*/
+    align-items: center;
+
+    
+}
+
+
+
+.contact-header-name-surname {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 1px solid black;
+}

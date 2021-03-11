@@ -1,0 +1,39 @@
+
+.characteristic-item {
+    display: flex; 
+    justify-content: space-between;
+} 
+
+
+    .add-characteristic-popup-container {
+        border : 1px  solid red;
+        height: 100%;
+    }
+
+    .add-characteristic-values-scrollbar {
+        border : 1px  solid yellow;
+        height: 100%;
+        overflow-y: scroll;
+    }
+
+    .inner-list-characteristic-values {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+        .characteristics-scrollbar {
+            height: 100%;
+          /*  background: #F5F5F5;*/
+            overflow-y: scroll;
+        }
+
+
+        .inner-list-characteristics {
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        
+
+            
+

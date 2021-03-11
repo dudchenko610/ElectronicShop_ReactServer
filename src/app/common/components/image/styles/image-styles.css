@@ -1,0 +1,39 @@
+.image-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    width: 100%;
+  /*  border : 1px  solid red;*/
+  
+}
+
+.img-holder {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    width: 100%;
+  /*  border : 1px  solid blue;*/
+
+}
+
+.upload-holder {
+  /*  border : 1px  solid yellow;*/
+
+    height: 30%;
+    width: 100%;
+}
+
+.other-than-ready-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+

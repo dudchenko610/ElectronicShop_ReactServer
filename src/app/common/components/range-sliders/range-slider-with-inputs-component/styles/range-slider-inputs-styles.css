@@ -1,0 +1,4 @@
+.range-slider-with-inputs {
+    display: flex;
+    flex-direction: column;
+}

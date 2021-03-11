@@ -1,0 +1,20 @@
+
+.search-tab {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    flex-direction: row;
+
+    height: 100%;
+}
+
+.search-product-filter-container {
+    height: 100%;
+    width: 20%;
+}
+
+.paged-products-container {
+    height: 100%;
+    width: 80%;
+}

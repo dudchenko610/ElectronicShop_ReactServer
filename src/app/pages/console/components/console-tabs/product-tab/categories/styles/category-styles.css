@@ -1,0 +1,14 @@
+.categories-container {
+    height: 50%;
+    width: 100%;
+
+    display:flex;
+    flex-direction: column;
+  /*  border : 1px  solid red;*/
+}
+
+.add-category-btn-container {
+    display: flex;
+    justify-content: space-between;
+    
+}

@@ -1,0 +1,10 @@
+
+.manufact-item {
+    display: flex; 
+    justify-content: space-between;
+}
+
+
+.manufact-item .actions {
+     display: flex;
+}

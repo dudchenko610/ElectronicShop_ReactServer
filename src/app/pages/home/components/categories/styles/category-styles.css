@@ -1,0 +1,18 @@
+.home-categories-container {
+    height: 100%;
+
+    
+    border : 1px  solid red;
+
+    display:flex;
+    flex-direction: column;
+
+    width : 10%;
+  /*  border : 1px  solid red;*/
+}
+
+.add-category-btn-container {
+    display: flex;
+    justify-content: space-between;
+    
+}

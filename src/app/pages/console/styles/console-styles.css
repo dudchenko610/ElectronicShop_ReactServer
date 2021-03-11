@@ -1,0 +1,32 @@
+.market-console-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    height: 100%;
+}
+
+.categor-manufact-container {
+    height: 100%;
+    width : 20%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.characts-filter-container {
+    height: 100%;
+    width : 25%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.console-product-filter-container {
+    height: 100%;
+    width : 100%;
+}

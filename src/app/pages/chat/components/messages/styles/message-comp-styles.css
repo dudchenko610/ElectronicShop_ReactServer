@@ -1,0 +1,7 @@
+.messages-panel-wrapper {
+    width: 76.5%;
+  /*  border: 1px solid blue;*/
+  display:flex;
+  flex-direction: column;
+  height: 100%;
+}

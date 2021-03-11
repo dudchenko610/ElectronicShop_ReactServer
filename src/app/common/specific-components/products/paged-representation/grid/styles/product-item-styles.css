@@ -1,0 +1,19 @@
+.product-item-grid {
+
+    
+    border : 1px  solid red;
+
+ /*   padding-bottom: 150%;*/
+
+    display: flex;
+    flex-direction: column;
+    
+    height: 100%;
+
+   /* min-width: 10px;*/
+   /* min-height: 400px;*/
+
+    /*margin: 2px;
+    
+    padding: 1rem;*/
+}

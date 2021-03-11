@@ -1,0 +1,10 @@
+.char-value-holder {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-char-value {
+    line-height: 250px;
+    font-size: 100px;
+    text-align: center;
+}

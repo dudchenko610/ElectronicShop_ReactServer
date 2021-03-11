@@ -1,0 +1,13 @@
+.products-container {
+    height: 100%;
+    width : 59.5%;
+
+    display:flex;
+    flex-direction: column;
+  /*  border : 1px  solid red;*/
+}
+
+.add-product-btn-container {
+    display: flex;
+    justify-content: space-between;
+}

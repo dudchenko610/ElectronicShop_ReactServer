@@ -1,0 +1,25 @@
+
+.chat-panel-wrapper {
+    width: 23%;
+  /*  border: 1px solid black;*/
+    height: 100%;
+}
+
+.contact-user-item {
+    /*  border: 1px solid black;*/
+      display: flex;
+}
+
+.contact-user-avatar {
+    width: 50px;
+    height: 50px;
+}
+
+.contact-info-part {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-name-surname {
+
+}

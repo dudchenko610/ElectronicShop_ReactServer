@@ -1,0 +1,5 @@
+
+.product-sorting {
+    display: flex; 
+    justify-content: space-between;
+}

@@ -1,0 +1,10 @@
+
+.manufacturer-item {
+    display: flex; 
+    justify-content: space-between;
+}
+
+
+.manufacturer-item .actions {
+     display: flex;
+}

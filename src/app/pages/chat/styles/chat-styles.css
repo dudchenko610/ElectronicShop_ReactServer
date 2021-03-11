@@ -1,0 +1,100 @@
+.chatting-tab-content-wrapper {
+    /*border : 1px  solid red;*/
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+
+.center-notification-pb-txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+}
+
+
+
+.message-box {
+    height: 100%;
+    border: 1px solid blue;
+}
+
+
+
+.contacts-scrollbar{
+    height: 100%;
+    background: #F5F5F5;
+    overflow-y: scroll;
+  /*  border: 1px solid black;*/
+    
+}
+
+.messages-scrollbar {
+    height: 80%;
+ /*   background: #F5F5F5;*/
+    overflow-y: scroll;
+ /*   border: 1px solid black;*/
+    /*   margin-bottom: 25px;*/
+}
+
+.inner-list {
+  /*  border: 1px solid green;*/
+    margin: 0 auto;
+    padding: 0;
+}
+
+.force-overflow {
+    /*	min-height: 100px;*/
+}
+
+#wrapper {
+    text-align: center;
+    width: 500px;
+}
+
+
+/*
+ *  STYLE 2
+ */
+
+
+
+
+#style-contacts::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+#style-contacts::-webkit-scrollbar {
+    width: 5px;
+    background-color: #F5F5F5;
+}
+
+#style-contacts::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #D62929;
+}
+
+
+
+#style-2::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar {
+    width: 5px;
+    background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #D62929;
+}

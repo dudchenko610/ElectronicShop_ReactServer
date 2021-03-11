@@ -1,0 +1,33 @@
+.message-container {
+    /*  border: 1px solid black;*/
+      display: flex;
+      flex-direction: column;
+      height: 40px;
+  }
+  
+  .message-content {
+     /* max-width: 100px;*/
+  }
+  
+  .message-creation-time {
+      font-size: 12px;
+  }
+  
+  .message-error-btn {
+      font-size: 12px;
+  }
+  
+  .message-loading-pb {
+    /*  font-size: 12px;*/
+  }
+  
+  .state-read-unread-container {
+    /*  border: 1px solid red;*/
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .state-el {
+    /*  border: 1px solid blue;*/
+  }
+  

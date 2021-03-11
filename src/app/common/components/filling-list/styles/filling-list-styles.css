@@ -1,0 +1,9 @@
+
+.filling-list-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.filling-list-reverse {
+    flex-direction: column-reverse;
+}
